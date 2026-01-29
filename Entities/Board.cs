@@ -45,9 +45,52 @@ namespace Entities
             BoardMask = WhitePieces | BlackPieces;
         }
 
-        public void Print()
+        public void PrintNumeric()
         {
-            Console.WriteLine(BoardMask);
+            for(int rank = 7; rank >= 0; rank--)
+            {
+                for(int file = 0; file < 7; file++)
+                {
+                    int square = rank * 8 + file;
+                    ulong mask = 1UL << square;
+                    Console.Write((BoardMask & mask) != 0 ? " 1" : " 0");
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        public void PrintAlpha()
+        {
+            for(int rank = 7; rank >= 0; rank--)
+            {
+                for(int file = 0; file < 8; file++)
+                {
+                    int square = rank * 8 + file;
+                    Console.Write(GetPieceAtSquare(square) + " ");
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        private char GetPieceAtSquare(int square)
+        {
+            ulong mask = 1UL << square;
+
+            if ((WhitePawns & mask) != 0) return 'P';
+            if ((WhiteRooks & mask) != 0) return 'R';
+            if ((WhiteKnights & mask) != 0) return 'N';
+            if ((WhiteBishops & mask) != 0) return 'B';
+            if ((WhiteQueen & mask) != 0) return 'Q';
+            if ((WhiteKing & mask) != 0) return 'K';
+
+            if ((BlackPawns & mask) != 0) return 'p';
+            if ((BlackRooks & mask) != 0) return 'r';
+            if ((BlackKnights & mask) != 0) return 'n';
+            if ((BlackBishops & mask) != 0) return 'b';
+            if ((BlackQueen & mask) != 0) return 'q';
+            if ((BlackKing & mask) != 0) return 'k';
+
+            return '.';
         }
     }
 }

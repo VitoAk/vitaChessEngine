@@ -8,7 +8,7 @@ namespace vitaChessEngine
         static void Main()
         {
             Board board = new Board();
-            board.Print();
+            board.PrintAlpha();
         }
     }
 }
