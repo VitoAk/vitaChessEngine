@@ -1,0 +1,15 @@
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/bin/Debug/net8.0/vitaChessEngine
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/bin/Debug/net8.0/vitaChessEngine.deps.json
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/bin/Debug/net8.0/vitaChessEngine.runtimeconfig.json
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/bin/Debug/net8.0/vitaChessEngine.dll
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/bin/Debug/net8.0/vitaChessEngine.pdb
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.AssemblyInfoInputs.cache
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.AssemblyInfo.cs
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.csproj.CoreCompileInputs.cache
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.sourcelink.json
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.dll
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/refint/vitaChessEngine.dll
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.pdb
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/vitaChessEngine.genruntimeconfig.cache
+/Users/vitokunstek/Desktop/Projects/vitaChessEngine/obj/Debug/net8.0/ref/vitaChessEngine.dll

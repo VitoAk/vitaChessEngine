@@ -1,2 +1,2 @@
 # vitaChessEngine
-Bit wise chess engine
+Bitwise chess engine
