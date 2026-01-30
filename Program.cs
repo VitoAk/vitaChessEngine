@@ -9,6 +9,8 @@ namespace vitaChessEngine
         {
             Board board = new Board();
             board.PrintAlpha();
+            board.MakeMove("e2","e4");
+            board.PrintAlpha();
         }
     }
 }

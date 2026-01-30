@@ -1,4 +1,4 @@
-namespace vitaChessEngine;
+namespace vitaChessEngine.Enums;
 
 public enum Pieces
 {

@@ -92,5 +92,29 @@ namespace Entities
 
             return '.';
         }
+
+        public void MakeMove(string squareFrom, string squareTo)
+        {
+            int sqFrom = AlphaToIntSquare(squareFrom);
+            int sqTo = AlphaToIntSquare(squareTo);
+
+            ulong maskFrom = 1UL << sqFrom;
+            ulong maskTo = 1UL << sqTo;
+
+            if((WhitePawns & maskFrom) != 0)
+            {
+                WhitePawns ^= maskFrom;
+                WhitePawns |= maskTo;
+            }
+        }
+
+        static int AlphaToIntSquare(string square)
+        {
+            int rank = Convert.ToInt32(Char.GetNumericValue(square[1])) - 1;
+
+            int file = square[0] - 'a';
+            
+            return rank * 8 + file;
+        }
     }
 }

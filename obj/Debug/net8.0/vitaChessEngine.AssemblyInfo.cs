@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vitaChessEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9fc040051d7b3a7dd4f6c8d8136e02a9df004d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed24a09add402415c0f1c2129f8f2869a7401901")]
 [assembly: System.Reflection.AssemblyProductAttribute("vitaChessEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vitaChessEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
